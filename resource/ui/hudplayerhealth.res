@@ -38,16 +38,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"0"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"-300"
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -87,13 +87,13 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"0 150 0 255"
 	}								
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"85"
+		"xpos"			"120"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"85"
+		"xpos"			"100"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -141,7 +141,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"85"
+		"xpos"			"100"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
