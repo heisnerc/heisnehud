@@ -429,14 +429,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"ZagBold"
-			{
-				"name"		"ZagBold"
-				"tall"		"36"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
-				"yres"		"480 599"
-			}
+	
 		"Default"
 		{
 				
@@ -2403,8 +2396,107 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		ZagRegular12
+		{
+			"1"
+			{
+				"name"		"ZagRegular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}	
+		
+		ZagRegular16
+		{
+			"1"
+			{
+				"name"		"ZagRegular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		ZagRegular24
+		{
+			"1"
+			{
+				"name"		"ZagRegular"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		ZagRegular36
+		{
+			"1"
+			{
+				"name"		"ZagRegular"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		ZagRegular48
+		{
+			"1"
+			{
+				"name"		"ZagRegular"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		ZagBold16
+		{
+			"1"
+			{
+				"name"		"ZagBold"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}	
 
+		ZagBold24
+		{
+			"1"
+			{
+				"name"		"ZagBold"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+		ZagBold32
+		{
+			"1"
+			{
+				"name"		"ZagBold"
+				"tall"		"32"
+				"antialias"	"1"
+			}	
+		}	
+		ZagBold36
+		{
+			"1"
+			{
+				"name"		"ZagBold"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		ZagBold48
+		{
+			"1"
+			{
+				"name"		"ZagBold"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}		
 	}
+	
+	
+	//////////////////// HeisneHud Fonts ////////////////////
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -4309,6 +4401,16 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
+		"7"
+		{
+			"font" "resource/fonts/ZagBold.otf"
+			"name" "ZagBold"
+		}
+		"8"
+		{
+			"font" "resource/fonts/ZagRegular.otf"
+			"name" "ZagRegular"
+		}	
 	}
 }

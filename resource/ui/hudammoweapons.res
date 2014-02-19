@@ -44,7 +44,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"HudFontGiantBold"
+		"font"			"ZagBold48"
 		"fgcolor"		"TanLight"
 		"xpos"			"4"
 		"xpos_minmode"	"8"
@@ -67,7 +67,7 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"5"
+		"xpos"			"99999"
 		"xpos_minmode"	"9"
 		"xpos_hidef"	"2"
 		"ypos"			"1"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"HudFontMediumSmall"
+		"font"			"ZagRegular24"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TanLight"
