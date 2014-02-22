@@ -16,14 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r360"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r80"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"xpos"	"c-45"	[$WIN32]
+		"ypos"	"c110"	[$WIN32]
+		"wide"	"250"
+		"tall"	"120"
 	}
 	
 	HudObjectiveStatus
@@ -970,8 +966,7 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"c0"	[$WIN32]
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
