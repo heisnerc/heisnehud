@@ -2492,7 +2492,18 @@ Scheme
 				"tall"		"48"
 				"antialias"	"1"
 			}
-		}		
+		}	
+		crosshair32outline
+		{
+			"1"
+			{
+				"name"		"broeselhud Crosshairs"
+				"tall"		"32"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
 	}
 	
 	
@@ -4411,6 +4422,10 @@ Scheme
 		{
 			"font" "resource/fonts/ZagRegular.otf"
 			"name" "ZagRegular"
-		}	
+		}
+		"9"
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "broeselhud Crosshairs"
 	}
 }

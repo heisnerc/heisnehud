@@ -1,5 +1,29 @@
 "Resource/HudLayout.res"
 {
+	//HeisneHud//
+
+	////////////////////////Crosshairs//////////////////////////
+
+
+	"Crosshair1"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"		"Crosshair1"
+		"textAlignment"	"center"
+		"zpos"			"20"
+		"enabled"		"1"
+		"visible"		"1"
+
+		"xpos"			"c-24"
+		"ypos"			"c-25"
+		"wide"			"48"
+		"tall"			"50"
+
+		"font"			"crosshair32outline"
+		"labelText"		"h"
+		"fgcolor"		"48 255 0 255"
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -16,7 +40,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-45"	[$WIN32]
+		"xpos"	"c-55"	[$WIN32]
 		"ypos"	"c110"	[$WIN32]
 		"wide"	"250"
 		"tall"	"120"
@@ -72,9 +96,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
+		"xpos"			"c-75"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
+		"ypos"			"c90"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -1017,7 +1041,7 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
+		"xpos"			"r150"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
