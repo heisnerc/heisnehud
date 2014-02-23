@@ -2396,7 +2396,24 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		
+		ZagRegular4
+		{
+			"1"
+			{
+				"name"		"ZagRegular"
+				"tall"		"4"
+				"antialias"	"1"
+			}
+		}	
+		ZagRegular8
+		{
+			"1"
+			{
+				"name"		"ZagRegular"
+				"tall"		"8"
+				"antialias"	"1"
+			}
+		}	
 		ZagRegular12
 		{
 			"1"
