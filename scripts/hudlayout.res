@@ -267,7 +267,7 @@
 		"ypos"		"r70"	[$WIN32]
 		"xpos"		"50"	[$X360]
 		"ypos"		"330"	[$X360]
-		"wide"		"500"
+		"wide"		"400"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
 	}
