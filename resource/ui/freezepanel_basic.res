@@ -56,7 +56,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"ZagRegular12"
 				"xpos"			"44"
 				"ypos"			"10"
 				"ypos_hidef"		"11"
@@ -95,8 +95,8 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"c2"
+			"font"			"ZagRegular12"
+			"xpos"			"c10"
 			"xpos_hidef"		"c65"
 			"ypos"			"255"
 			"ypos_hidef"		"256"
@@ -118,8 +118,8 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
-			"xpos"			"c6"			// No avatar image on X360
+			"font"			"ZagRegular12"
+			"xpos"			"c16"			// No avatar image on X360
 			"xpos_hidef"		"c69"
 			"ypos"			"266"
 			"ypos_hidef"		"266"
@@ -151,7 +151,7 @@
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
-			"TFFont"		"HudFontSmall"
+			"TFFont"		"ZagRegular12"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"HudOffWhite"
 		}	

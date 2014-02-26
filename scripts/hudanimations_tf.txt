@@ -249,8 +249,6 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -258,7 +256,7 @@ event HudLowAmmoPulse
 // call to loop HudLowAmmoPulse
 event HudLowAmmoPulseLoop
 {
-	RunEvent HudLowAmmoPulse 0.0
+	RunEvent HudLowAmmoPulse 0.25
 }
 
 event HudLowAmmoPulseStop
@@ -422,11 +420,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Accel 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"255 120 255 255"		Accel 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Accel 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"255 120 255 255"		Accel 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -725,7 +723,9 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate 	"Crosshair1" 				FgColor 	"255 48 0 255" 		Accel 0.0 0.0
+	
+	Animate 	"Crosshair1"				FgColor 	"48 255 0 255" 		Accel 0.2 0.0
 }
 
 //===========================================

@@ -278,7 +278,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c100"
+		"ypos"		"c85"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -992,7 +992,7 @@
 		"enabled" 		"1"
 		"xpos"			"c0"	[$WIN32]
 		"ypos"			"275"
-		"wide"	 		"320"
+		"wide"	 		"250"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}

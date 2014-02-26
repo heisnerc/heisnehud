@@ -76,14 +76,14 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"ZagRegular24"
+		"font"			"ZagRegular16"
 		"font_minmode"	"TFFontLarge"
-		"xpos"			"34"
+		"xpos"			"50"
 		"xpos_minmode"	"30"
-		"ypos"			"3"
+		"ypos"			"9"
 		"ypos_minmode"	"5"
 		"zpos"			"1"
-		"wide"			"640"
+		"wide"			"100"
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -98,16 +98,17 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"ZagRegular12"
+		"font"			"ZagRegular16"
 		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"34"
+		"fgcolor"		"255 0 0 255"
+		"xpos"			"36"
 		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
 		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
-		"wide"			"280"
+		"wide"			"140"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -132,7 +133,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"ZagRegular8"
+		"TFFont"		"ZagRegular12"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
